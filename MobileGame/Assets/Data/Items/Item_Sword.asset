@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ce3446c5b3a00c44bf268fab0b1a1b4, type: 3}
+  m_Name: Item_Sword
+  m_EditorClassIdentifier: 
+  itemBase: {fileID: 0}
+  item:
+    itemName: Sword of something
+    itemSprite: {fileID: 0}
+    isStackable: 0
+    itemRarity: 0
+    modifiers:
+    - statSO: {fileID: 11400000, guid: 2ed62aace6eb4a5408ba7eb366db1f83, type: 2}
+      mode: 0
+      modeType: 0
+      modifierValue: 25
+    - statSO: {fileID: 11400000, guid: ecd8ba1ea35a32945a728301ac0fad8b, type: 2}
+      mode: 0
+      modeType: 1
+      modifierValue: 15
