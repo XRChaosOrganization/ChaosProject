@@ -15,11 +15,11 @@ S:/unity/Projects/Projectchaos/MobileGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51659
+49231
 Successfully changed project path to: S:/unity/Projects/Projectchaos/MobileGame
 S:/unity/Projects/Projectchaos/MobileGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 45.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path S:/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,129 +35,81 @@ Initialize mono
 Mono path[0] = 'S:/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'S:/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'S:/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: S:/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001446 seconds.
+Registered in 0.001488 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 44.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.430 seconds
+- Completed reload, in  1.752 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001492 seconds.
+Registered in 0.001424 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-0x00007ff6689a8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff6689b1069 (Unity) StackWalker::ShowCallstack
-0x00007ff669e8564c (Unity) GetStacktrace
-0x00007ff66af44803 (Unity) DebugStringToFile
-0x00007ff6687cf87b (Unity) ScanForAttributesAndInterfaceImplementations
-0x00007ff6687e2fba (Unity) MonoManager::EndReloadAssembly
-0x00007ff6687ea339 (Unity) MonoManager::ReloadAssembly
-0x00007ff669b943a1 (Unity) LoadDomainAndUserAssemblies
-0x00007ff669b9484e (Unity) LoadUserAssemblies
-0x00007ff66951d736 (Unity) Application::InitializeProject
-0x00007ff669e92be2 (Unity) WinMain
-0x00007ff66bcd8fc6 (Unity) __scrt_common_main_seh
-0x00007fff92fe7034 (KERNEL32) BaseThreadInitThunk
-0x00007fff947bd0d1 (ntdll) RtlUserThreadStart
+0x00007ff60d6d8c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff60d6e1069 (Unity) StackWalker::ShowCallstack
+0x00007ff60ebb564c (Unity) GetStacktrace
+0x00007ff60fc74803 (Unity) DebugStringToFile
+0x00007ff60d4ff87b (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff60d512fba (Unity) MonoManager::EndReloadAssembly
+0x00007ff60d51a339 (Unity) MonoManager::ReloadAssembly
+0x00007ff60e8c43a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff60e8c484e (Unity) LoadUserAssemblies
+0x00007ff60e24d736 (Unity) Application::InitializeProject
+0x00007ff60ebc2be2 (Unity) WinMain
+0x00007ff610a08fc6 (Unity) __scrt_common_main_seh
+0x00007ffd68b67034 (KERNEL32) BaseThreadInitThunk
+0x00007ffd6923d0d1 (ntdll) RtlUserThreadStart
 
 Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-0x00007ff6689a8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff6689b1069 (Unity) StackWalker::ShowCallstack
-0x00007ff669e8564c (Unity) GetStacktrace
-0x00007ff66af44803 (Unity) DebugStringToFile
-0x00007ff6687ebf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
-0x00007ff6687e330c (Unity) MonoManager::EndReloadAssembly
-0x00007ff6687ea339 (Unity) MonoManager::ReloadAssembly
-0x00007ff669b943a1 (Unity) LoadDomainAndUserAssemblies
-0x00007ff669b9484e (Unity) LoadUserAssemblies
-0x00007ff66951d736 (Unity) Application::InitializeProject
-0x00007ff669e92be2 (Unity) WinMain
-0x00007ff66bcd8fc6 (Unity) __scrt_common_main_seh
-0x00007fff92fe7034 (KERNEL32) BaseThreadInitThunk
-0x00007fff947bd0d1 (ntdll) RtlUserThreadStart
+0x00007ff60d6d8c8c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff60d6e1069 (Unity) StackWalker::ShowCallstack
+0x00007ff60ebb564c (Unity) GetStacktrace
+0x00007ff60fc74803 (Unity) DebugStringToFile
+0x00007ff60d51bf10 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff60d51330c (Unity) MonoManager::EndReloadAssembly
+0x00007ff60d51a339 (Unity) MonoManager::ReloadAssembly
+0x00007ff60e8c43a1 (Unity) LoadDomainAndUserAssemblies
+0x00007ff60e8c484e (Unity) LoadUserAssemblies
+0x00007ff60e24d736 (Unity) Application::InitializeProject
+0x00007ff60ebc2be2 (Unity) WinMain
+0x00007ff610a08fc6 (Unity) __scrt_common_main_seh
+0x00007ffd68b67034 (KERNEL32) BaseThreadInitThunk
+0x00007ffd6923d0d1 (ntdll) RtlUserThreadStart
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.24 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 45.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.292 seconds
+- Completed reload, in  3.975 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2617 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 109.1 MB.
 System memory in use after: 109.3 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3046.
-Total: 2.294400 ms (FindLiveObjects: 0.324600 ms CreateObjectMapping: 0.066100 ms MarkObjects: 1.849200 ms  DeleteObjects: 0.053600 ms)
+Total: 2.369500 ms (FindLiveObjects: 0.318100 ms CreateObjectMapping: 0.076000 ms MarkObjects: 1.910100 ms  DeleteObjects: 0.064100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/TowerGamePack
-  artifactKey: Guid(9abd309630b7c43438a8587130effcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack using Guid(9abd309630b7c43438a8587130effcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e76f7e66ed20203b1daf4ed7dcca2b3') in 0.006496 seconds
-  Import took 0.014075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.944442 seconds.
-  path: Assets/2D
-  artifactKey: Guid(fe6217a7f13b09841b04310a5aeeae52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D using Guid(fe6217a7f13b09841b04310a5aeeae52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385bf288d6ea4c8d34cf5d914d5a1fb5') in 0.003368 seconds
-  Import took 0.011619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.920142 seconds.
-  path: Assets/2D/Sprites
-  artifactKey: Guid(1a542936854b1914b9be2004dca364e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Sprites using Guid(1a542936854b1914b9be2004dca364e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42eec1e2d79cda0557f426c720ca7707') in 0.003265 seconds
-  Import took 0.014057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002613 seconds.
-  path: Assets/2D/Sprites
-  artifactKey: Guid(1a542936854b1914b9be2004dca364e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Sprites using Guid(1a542936854b1914b9be2004dca364e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42eec1e2d79cda0557f426c720ca7707') in 0.002854 seconds
-  Import took 0.011085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.918888 seconds.
-  path: Assets/2D/Sprites/Environment
-  artifactKey: Guid(e833660ef676b4c409728689b7186b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Sprites/Environment using Guid(e833660ef676b4c409728689b7186b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e40349da8cf76028f147f3e83cef942') in 0.003459 seconds
-  Import took 0.012139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.343425 seconds.
-  path: Assets/TowerGamePack/Source file
-  artifactKey: Guid(22d8802c552e74e4d9e9f9c9769b9466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack/Source file using Guid(22d8802c552e74e4d9e9f9c9769b9466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20226c0c0fb6aa6fd0f3f679667e4079') in 0.003446 seconds
-  Import took 0.011560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.807413 seconds.
-  path: Assets/Scene_Test.unity
-  artifactKey: Guid(3ad5e8e867f3fb340a8e81fd7a19580d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_Test.unity using Guid(3ad5e8e867f3fb340a8e81fd7a19580d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544e2544c891a77046330f969d433066') in 0.010113 seconds
-  Import took 0.018037 seconds .
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e2fea482a4dc9709e8121977c16cce') in 0.045148 seconds
+  Import took 0.053592 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
